@@ -67,18 +67,19 @@
     }
 
     .message {
-      position: absolute;
-      bottom: 40px;
-      width: 100%;
-      text-align: center;
-      font-size: 64px;
-      font-weight: bold;
-      color: white;
-      opacity: 0;
-      transition: opacity 1s ease;
-      z-index: 3;
-      text-shadow: 2px 2px 6px black;
-    }
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 64px;
+  font-weight: bold;
+  color: white;
+  opacity: 0;
+  transition: opacity 1s ease;
+  z-index: 3;
+  text-shadow: 2px 2px 6px black;
+  text-align: center;
+}
 
     .message.show {
       opacity: 1;
